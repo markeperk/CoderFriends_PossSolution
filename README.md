@@ -1,3 +1,4 @@
+
 CoderFriends
 ============
 
@@ -113,3 +114,4 @@ https://api.github.com/users/<username>/events
 
 * Create a method in your Github service called `getFriendActivity` and make sure it's passed a username
 * Have `eventData` be a resolved variable in the app's routing, then render each of the events in the `/friend/:github_username` route in the Angular app.
+
