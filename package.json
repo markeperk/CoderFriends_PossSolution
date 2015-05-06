@@ -1,0 +1,28 @@
+{
+  "name": "CoderFriends",
+  "version": "1.0.0",
+  "description": "CoderFriends ============",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevMountain/CoderFriends.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevMountain/CoderFriends/issues"
+  },
+  "homepage": "https://github.com/DevMountain/CoderFriends",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "express": "^4.12.3",
+    "express-session": "^1.11.1",
+    "github": "^0.2.4",
+    "passport": "^0.2.1",
+    "passport-github": "^0.1.5"
+  }
+}

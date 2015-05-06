@@ -1,0 +1,15 @@
+<div class="navbar">
+<h1>Welcome {{response}}</h1>
+<!-- 	<div class="button">
+		<a href="/auth/github" class="btn btn-block btn-social btn-github">
+	    <i class="fa fa-github"></i> Sign in with Github</a>
+  	</div> -->
+</div>
+<div class="friends">
+	<p>Friends I Follow</p>
+		<div class="stuff" ng-repeat='friend in friends'>
+			id: <a href="#/friend/{{friend.login}}">{{friend.login}}</a>,
+			profilepic: <img src="{{friend.avatar_url}}">
+		</div>
+</div>
+
